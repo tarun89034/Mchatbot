@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from '../contexts/useAuth';
 
 interface WebSocketMessage {
   type: 'message' | 'typing_indicator' | 'system_message' | 'error';
