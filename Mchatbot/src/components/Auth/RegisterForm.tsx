@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '../../contexts/useAuth';
 import { Eye, EyeOff, Mail, Lock, User, Heart } from 'lucide-react';
 
 interface RegisterFormProps {

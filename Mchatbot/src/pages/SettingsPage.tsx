@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useAuth } from '../contexts/AuthContext';
+import { useAuth } from '../contexts/useAuth';
 import { User, Bell, Shield, Palette, Download, Trash2 } from 'lucide-react';
 
 const SettingsPage: React.FC = () => {
